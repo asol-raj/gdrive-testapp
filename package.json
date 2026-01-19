@@ -1,0 +1,29 @@
+{
+  "name": "gdrive-testapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "googleapis": "^170.1.0",
+    "multer": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asol-raj/gdrive-testapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/asol-raj/gdrive-testapp/issues"
+  },
+  "homepage": "https://github.com/asol-raj/gdrive-testapp#readme"
+}
