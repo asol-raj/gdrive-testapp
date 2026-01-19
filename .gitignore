@@ -1,0 +1,24 @@
+node_modules
+.env
+
+# Ignore all files in src/controller/data
+src/controller/data/*
+
+# But include the folder itself (necessary to keep the directory structure)
+# !src/
+# !src/controller/
+# !src/controller/data/
+
+test.bat
+local.sql
+targets.json
+
+# Ignore scheduler logs
+scheduler-*.log
+
+# Ignore state folder created by scheduler
+.scheduler/
+
+tests/
+/src/public/img/*
+/src/controller/error_logs/*
